@@ -3,6 +3,7 @@
 **AGH University of Science and Technology, Kraków**  
 ML Course Project · Based on: *Skulimowski, A.M.J., "Coordinated World Model Learning for Deep Space Robot Teams", IEEE AeroConf 2026*
 
+By: Vahid Moeinifar (vmoeinifar@agh.edu.pl)
 ---
 
 ## Overview
@@ -28,8 +29,8 @@ robot_wm_project/
 ├── README.md
 ├── requirements.txt
 │
-├── data/                        # Place your .IMG DEM files here
-│   └── (10 × NASA HiRISE .IMG files)
+├── data/                        
+│   └── (1 × NASA HiRISE .IMG files)  
 │
 ├── modules/
 │   ├── dem_loader.py            # Load & parse NASA .IMG (PDS) DEMs
@@ -55,7 +56,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Add your DEM files
-Copy your 10 `.IMG` files into the `data/` folder.
+Copy your `.IMG` files into the `data/` folder. One sample exist. You can download more DEM images from: https://www.uahirise.org/dtm/index.php
 
 ### 3. Run with real DEM data
 ```bash
